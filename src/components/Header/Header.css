@@ -1,0 +1,6 @@
+.header a{
+    margin-left: 20px;
+}
+.header a:hover{
+    color: darkslategray;
+}
