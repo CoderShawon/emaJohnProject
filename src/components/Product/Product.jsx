@@ -15,7 +15,7 @@ const Product = (props) => {
           <p>Manufacturer: {seller}</p>
           <p>Rating: {ratings} star</p>
           <div className=" button flex justify-center gap-2 bg-orange-400 p-4 w-full rounded-sm">
-            <button onClick={()=>{handleAddToCart(props.children)}} className="text-xl">Add to cart</button>
+            <button onClick={()=>{handleAddToCart(props.children)}} className="text-xl">Add To cart</button>
             <span className="flex justify-center items-center">
               {
                 <svg
